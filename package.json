@@ -1,0 +1,40 @@
+{
+  "name": "nuclear-vpn-indicator",
+  "version": "1.0.0",
+  "description": "Subtle and universal real-time VPN status indicator displayed next to the theme switch in Nuclear Music Player",
+  "author": "Chad Longanecker",
+  "license": "MIT",
+  "main": "index.js",
+  "category": "utilities",
+  "categories": [
+    "utilities",
+    "interface"
+  ],
+  "keywords": [
+    "nuclear",
+    "nuclear-player",
+    "plugin",
+    "vpn",
+    "network",
+    "security",
+    "indicator",
+    "status"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HuggingBunny/nuclear-vpn-indicator.git"
+  },
+  "nuclear": {
+    "displayName": "VPN Indicator",
+    "author": "Chad Longanecker",
+    "category": "utilities",
+    "categories": [
+      "utilities",
+      "interface"
+    ],
+    "permissions": []
+  },
+  "scripts": {
+    "package": "zip -r nuclear-vpn-indicator.zip package.json index.js README.md LICENSE"
+  }
+}
